@@ -159,7 +159,7 @@ Du bör såklart byta ut kommentaren innanför citattecknen mot en kommentar som
 <br><br>
 Testa nu att göra en ändring i filen index.html samt skapa en ny fil och lägg i mappen. Kolla status, lägg till den nya filen med
 <br><br>
-git add .
+`git add .`
 <br><br>
 och gör en ny commit. Du bör nu ha ett lokalt repositorie med två versionshanterade filer och två stycken "commits".
 
@@ -187,6 +187,7 @@ Man kan nu kontrollera att förändringarna finns på GitHub och man kan nu klon
 Gå till terminalfönstret och navigera dig till den mapp där du har ditt lokala repositorie och skriv:
 <br><br>
 `git remote add origin https://github.com/xx222xx/myRepo.git`
+<br><br>
 `git push -u origin main`
 <br><br>
 där den sista delen i det första kommandot är den address du kopierade. _main_ kan ev. behöva bytas ut mot _master_ (olika datorer använder olika standard). Du har nu kopplat ihop dina två repon och uppdaterat ditt remota repo med de filer du hade lokalt. Du kan fortsätta jobba lokalt med add och commit och använda push när du vill uppdatera på GitHub.
