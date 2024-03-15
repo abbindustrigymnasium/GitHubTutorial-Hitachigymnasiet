@@ -136,7 +136,11 @@ OBS! Beroende på din git-installation kommer detta inte gå att göra i git-bas
 
 Du kommer nu få ett flertal frågor om hur du vill ange dina inloggningsuppgifter. Använd piltangenterna för att växla mellan olika alternativ och enter för att välja.
 - What account do you want to log into? --> GitHub.com
-- What is your preferred protocol for git operations on this host? --> 
+- What is your preferred protocol for git operations on this host? --> HTTPS
+- Authenticate Git with your GitHub credentials? --> Yes
+- How would you like to authenticate GitHub CLI? --> Login with a web browser
+
+Du bör nu få en kod uppgedd i terminalfönstret och en uppmaning att trycka enter. När du trycker enter öppnas din webläsare och du uppmanas att skriva in koden från terminalen. Du kommer sedan få en beskrivning på vad du ger din dator access till på din github - bekräfta åtkomsträttigheterna. Slutligen kommer du få ange dina inloggningsuppgifter till github på det sätt du själv har ställt in din inloggningsmetod (någon form av tvåvägsverifiering). Grattis! Du kommer nu slippa alla propmts på att ange inloggningsuppgifter när du försöker göra en push.
 
 ## Att skapa ett repositorie
 Ett centralt begrepp inom Git är repositorie (repository) eller ofta förkortat som "repo". Detta kan förklaras som ett versionshanterat projekt. Ett repositorie kan du skapa på olika sätt. Antingen via att skapa ett helt nytt repo på din lokala dator eller genom att ladda ner ett redan påbörjat repo från t.ex. GitHub.
