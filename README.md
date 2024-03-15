@@ -107,6 +107,7 @@ Du bör då få upp en bild liknande denna
 <br>
 ![Git](https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_version.png)
 <br>
+
 Forsätt genom att ange dina uppgifter i konfigurationen för Git. Använd såklart ditt namn och e-postadress (den du använde när du skapade ditt github-konto).
 <br><br>
 `git config --global user.name "John Doe"`
@@ -119,6 +120,23 @@ Kontrollera dina inställningar via:
 <br><br>
 ![Git](https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_config.png)
 <br><br>
+
+För att få access till ditt github-konto kommer du att behöva uppge credentials (inloggningsuppgifter). Vi rekommenderar att du installerar github cli för att lösa detta på det smidigaste sättet.
+Öppna ett terminalfönster och ange:
+<br><br>
+```winget install --id GitHub.cli```
+<br><br>
+Om installationen inte fungerar och istället ger upphov till en _permission denied_ prompt behöver du först uppdatera git. Detta gör du genom att i samma terminal ange ```git update```.
+
+När github cli är installerat är det dags att ange dina uppgifter. Starta om terminalen (det redan öppna terminalfönstret känner inte till kommandot för det nyinstallerade CLI't). I det nya terminalfönstret skriver du:
+<br><br>
+```gh auth login```
+<br><br>
+OBS! Beroende på din git-installation kommer detta inte gå att göra i git-bash-terminalen. Använd t.ex. powershell.
+
+Du kommer nu få ett flertal frågor om hur du vill ange dina inloggningsuppgifter. Använd piltangenterna för att växla mellan olika alternativ och enter för att välja.
+- What account do you want to log into? --> GitHub.com
+- What is your preferred protocol for git operations on this host? --> 
 
 ## Att skapa ett repositorie
 Ett centralt begrepp inom Git är repositorie (repository) eller ofta förkortat som "repo". Detta kan förklaras som ett versionshanterat projekt. Ett repositorie kan du skapa på olika sätt. Antingen via att skapa ett helt nytt repo på din lokala dator eller genom att ladda ner ett redan påbörjat repo från t.ex. GitHub.
