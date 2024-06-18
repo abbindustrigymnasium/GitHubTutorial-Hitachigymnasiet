@@ -55,7 +55,9 @@ Lägg till två extensions till Visual Studio Code:<br>
 ## Kom igång med GitHub
 Det första Du bör göra (om du inte redan har gjort det) är att skapa dig ett konto på GitHub.
 
-Fyll i formuläret som nedan fast med ditt eget användarnamn och e-post.
+Fyll i formuläret som nedan fast med ditt eget användarnamn och e-post. 
+
+OBS! Vi vill helst att du använder din skolmail (...@hitachigymnasiet.se) och ett användarnamn på formen <de 3 första bokstäverna från ditt förnamn><de 3 första bokstäverna från ditt efternamn><hit>. Om du t.ex. heter Sofie Ahlberg så skulle användarnamnet bli "sofahlhit". Om du har ett konto sedan tidigare så går det bra att använda det, men om du vill hålla isär skola och privata projekt så föreslår vi att du skapar ett nytt konto och sedan kopplar det för en bättre översikt.
 ![Github Signup](https://github.com/abbjoafli/Programmering-1/blob/master/Git-Github/Github_SignUp.PNG)
 
 ### Skapa ett repositorie
@@ -132,7 +134,7 @@ När github cli är installerat är det dags att ange dina uppgifter. Starta om 
 <br><br>
 ```gh auth login```
 <br><br>
-OBS! Beroende på din git-installation kommer detta inte gå att göra i git-bash-terminalen. Använd t.ex. powershell.
+OBS! Beroende på din git-installation kommer detta inte gå att göra i git-bash-terminalen. Använd t.ex. powershell eller cmd.
 
 Du kommer nu få ett flertal frågor om hur du vill ange dina inloggningsuppgifter. Använd piltangenterna för att växla mellan olika alternativ och enter för att välja.
 - What account do you want to log into? --> GitHub.com
