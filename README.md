@@ -192,7 +192,10 @@ och gör en ny commit. Du bör nu ha ett lokalt repositorie med två versionshan
 Men om man har ett repositorie på GitHub och vill utveckla lokalt på sin dator och sedan skicka upp förändringarna. Hur gör man då? Eller om man har skapat ett lokalt och vill få upp det på GitHub?
 
 I det sistnämnda fallet behöver du först skapa ett tomt repo på GitHub (detta kan du göra själv enligt instruktionerna ovan eller genom en github-classroom-länk). 
-På ditt remota repositories första sida (på GitHub), nere till höger, kommer du se något som heter "HTTPS clone URL". Kopiera den sökväg som finns där. Den ska vi nu använda via terminalfönstret och klona ner en kopia av repositoriet och få en koppling så vi kan skicka upp våra förändringar.
+På ditt remota repositories första sida (på GitHub), uppe till höger, kommer du se en grön knapp som heter "Code". Om du klickar på den ser du något som heter "HTTPS clone URL" (se bild nedan). Kopiera den sökväg som finns där. Den ska vi nu använda via terminalfönstret och klona ner en kopia av repositoriet och få en koppling så vi kan skicka upp våra förändringar.
+
+![image](https://github.com/abbindustrigymnasium/GitHubTutorial-Hitachigymnasiet/assets/22837762/8d5c70ab-6c94-4ac4-92ee-5c81b284d75d)
+
 
 #### Klona ett repo från GitHub (när du har allt remote) OBS! Även när du vill arbeta på en ny dator, t.ex. vid gruppuppgifter!
 Gå till terminalfönstret och navigera dig till den mapp där du vill kopiera ner repositoriet och skriv:
@@ -205,7 +208,7 @@ Vi har nu arbetat på ett tag men som sagt har vi bara gjort våra förändringa
 <br><br>
 `git push`
 <br><br>
-Man kan nu kontrollera att förändringarna finns på GitHub och man kan nu klona ner dessa på liknande sätt till en annan dator man vill jobba vidare på.
+Man kan nu kontrollera att förändringarna finns på GitHub och man kan nu klona ner dessa på liknande sätt till en annan dator man vill jobba vidare på. OBS! Man bör alltid kontrollera detta som en god vana.
 
 #### Koppla ett lokalt repo till GitHub (när du har kod lokalt)
 Gå till terminalfönstret och navigera dig till den mapp där du har ditt lokala repositorie och skriv:
@@ -214,7 +217,7 @@ Gå till terminalfönstret och navigera dig till den mapp där du har ditt lokal
 <br><br>
 `git push -u origin main`
 <br><br>
-där den sista delen i det första kommandot är den address du kopierade. _main_ kan ev. behöva bytas ut mot _master_ (olika datorer använder olika standard). Du har nu kopplat ihop dina två repon och uppdaterat ditt remota repo med de filer du hade lokalt. Du kan fortsätta jobba lokalt med add och commit och använda push när du vill uppdatera på GitHub.
+där den sista delen i det första kommandot är den address du kopierade. _main_ kan ev. behöva bytas ut mot _master_ (beroende på när det repository som du kopplar ditt lokala repo med skapades). Du har nu kopplat ihop dina två repon och uppdaterat ditt remota repo med de filer du hade lokalt. Du kan fortsätta jobba lokalt med add och commit och använda push när du vill uppdatera på GitHub.
 
 ## Övning
 Nedan finns en övningsuppgift för att testa det du precis har lärt dig! Försök göra allting som går från terminalfönstret (inklusive skapande av nya mappar och filer).
