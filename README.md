@@ -238,7 +238,7 @@ OK, säg då att vi vill jobba med en branch. Kanske är det en funktion eller w
 
 Vi ser till att vi i vårt terminalfönster befinner oss i vår versionshanterade mapp och kör kommandot
 <br><br>
-git checkout -b my-new-branch
+`git checkout -b my-new-branch`
 <br><br>
 Där my-new-branch är det namn du ger din branch. Kör nu `git status` så ser du att du nu befinner dig i din skapade branch. Alla add och commit kommer nu endast att påverka denna nya branch. Så under tiden du jobbar med funktionen gör du dina förändringar bara till denna förgrening av koden. När vi sedan känner oss klara med funktionen vi utvecklat vill vi såklart slå ihop våra förändringar med huvudspåret (som egentligen är en branch som kallas "main"). Detta gör vi genom en så kallad megre. Detta gör man i två steg. Först måste vi förflytta oss tillbaka till vår master-branch och sedan tala om att vi vill göra en merge från vår egna branch. Kör följande kommandon:
 <br><br>
