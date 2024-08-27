@@ -57,7 +57,7 @@ Det första Du bör göra (om du inte redan har gjort det) är att skapa dig ett
 
 Fyll i formuläret som nedan fast med ditt eget användarnamn och e-post. 
 
-OBS! Vi vill helst att du använder din skolmail (...@hitachigymnasiet.se) och ett användarnamn på formen <de 3 första bokstäverna från ditt förnamn> <de 3 första bokstäverna från ditt efternamn> < klassnamn >. Om du t.ex. heter Sofie Ahlberg och går i klass 240s så skulle användarnamnet bli "sofahl240s". Om du har ett konto sedan tidigare så går det bra att använda det, men om du vill hålla isär skola och privata projekt så föreslår vi att du skapar ett nytt konto och sedan kopplar det för en bättre översikt.
+OBS! Vi vill helst att du använder din skolmail (...@hitachigymnasiet.se) och ett användarnamn på formen <hg> <de 3 första bokstäverna från ditt förnamn> <de 3 första bokstäverna från ditt efternamn>. Om du t.ex. heter Sofie Ahlberg så skulle användarnamnet bli "ghsofahl". Om du har ett konto sedan tidigare så går det bra att använda det, men om du vill hålla isär skola och privata projekt så föreslår vi att du skapar ett nytt konto och sedan kopplar det för en bättre översikt.
 ![Github Signup](https://github.com/abbjoafli/Programmering-1/blob/master/Git-Github/Github_SignUp.PNG)
 
 ### Skapa ett repositorie
